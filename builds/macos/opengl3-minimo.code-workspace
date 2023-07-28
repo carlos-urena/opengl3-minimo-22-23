@@ -1,0 +1,17 @@
+{
+  "folders": 
+  [ { "name": "BUILD (macOS)",
+      "path": "."
+    },
+    { "name": "FUENTES",
+      "path": "../../src"
+    }
+  ],
+
+  "settings" : 
+  {
+    "C_Cpp.default.cppStandard" : "c++17",
+    "C_Cpp.default.includePath" : [ "${workspaceFolder:FUENTES}", "${default}" ]
+                                  
+  }
+}
